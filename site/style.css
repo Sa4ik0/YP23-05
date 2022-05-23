@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +18,7 @@ body {
 }
 
 .bg {
-    background-image: url(../site/img/back.png);
+    background-image: url(img/back.png);
     width: 1920px;
     height: 800px;
 }
@@ -46,4 +48,44 @@ header {
 .header__items-menu {
     margin-left: 529px;
     margin-top: 19px;
+}
+
+.sub__title {
+    margin-left: 595px;
+    margin-top: 202px;
+    position: absolute;
+    max-width: 635px;
+}
+
+.sub__title-f {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+}
+
+.sub__title-t {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+
+.sub__title-b {
+    margin-top: 40px;
+    width: 160px;
+    height: 51px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
 }
