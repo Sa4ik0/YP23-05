@@ -16,7 +16,7 @@ body {
 }
 
 .bg {
-    background-image: url(../../23-05/gh-pages/img/back.png);
+    background-image: url(../site/img/back.png);
     width: 1920px;
     height: 800px;
 }
